@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/new/prefix1"/>
+    <qresource prefix="/image"/>
+    <qresource prefix="/images">
+        <file>images/btnMin.png</file>
+        <file>images/btnClose.png</file>
+        <file>images/btnMax.png</file>
+        <file>icon/titleicon.png</file>
+        <file>images/close.svg</file>
+        <file>images/max.svg</file>
+        <file>images/min.svg</file>
+        <file>images/btnPause.svg</file>
+        <file>images/btnPlay.svg</file>
+        <file>images/btnShowFullScreen_M.svg</file>
+        <file>images/btnShowFullScreen_S.svg</file>
+        <file>images/btnSound_mute.svg</file>
+        <file>images/btnSound_volumn.svg</file>
+        <file>images/btnNext.svg</file>
+        <file>images/btnUpward.svg</file>
+        <file>images/btnStop.svg</file>
+        <file>images/btnOpenFile.svg</file>
+        <file>images/btnAddList.svg</file>
+        <file>images/btnClear.svg</file>
+        <file>images/btnShowList.svg</file>
+    </qresource>
+    <qresource prefix="/QSS"/>
+    <qresource prefix="/./qss"/>
+    <qresource prefix="/qsss"/>
+    <qresource prefix="/qs"/>
+    <qresource prefix="/qss">
+        <file>kano.qss</file>
+    </qresource>
+</RCC>

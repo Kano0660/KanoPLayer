@@ -1,0 +1,97 @@
+QPushButton,KanoOpenFile{
+        background-color:rgb(70,70,70);
+        font:16x "Microsoft YaHei";
+        color:rgb(200,200,200);
+        border-radius:5px;
+        padding: 5px;
+
+}
+QPushButton::menu-indicator{image:none}
+
+QPushButton:hover,KanoOpenFile:hover{
+    background-color:rgb(99, 99, 99);
+    border: 1px solid #707070;
+    border-radius:5px;
+    padding: 5px;
+}
+
+QPushButton:pressed,KanoOpenFile:pressed{
+    border:none;
+}
+
+
+KanoPlayCtrlBar QPushButton::menu-indicator{image:none}
+
+
+
+QWidget{
+   background-color:rgb(100,100,100);
+}
+
+KanoOpenFile{
+    background-color:#244973
+}
+
+
+
+
+
+QListView::item {
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid #ccc;
+}
+QListView::item::selected{
+    background: #e7e7e7; color: #f44336;
+}
+
+QListWidget::item:selected::active {
+    background: lightgreen;
+}
+
+
+/*滑块的样式*/
+QSlider::groove:horizontal {
+border: 1px solid #A7D2EE;
+background: #A7D2EE;
+height: 2px;
+border-radius: 1px;
+padding-left:0px;
+padding-right:0px;
+}
+
+/*滑块经过的颜色:前面的颜色*/
+QSlider::sub-page:horizontal {
+background: #2E59A7;
+border: 1px solid #2E59A7;
+height: 2px;
+border-radius: 2px;
+}
+
+QSlider::add-page:horizontal {
+background: #EAEAEA;
+border: 0px solid #EAEAEA;
+height: 2px;
+border-radius: 2px;
+}
+QSlider::handle:horizontal
+{
+    background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5,
+    stop:0.6 #00B0AE,stop:0.98409 rgba(255, 255, 255, 255));
+
+    width: 15px;
+    margin-top: -6px;
+    margin-bottom: -6px;
+    border-radius: 5px;
+}
+
+QSlider::handle:horizontal:hover {
+    background: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5,
+    stop:0.6 #00B0AE,stop:0.98409 rgba(255, 255, 255, 255));
+
+    width: 15px;
+    margin-top: -6px;
+    margin-bottom: -6px;
+    border-radius: 5px;
+}
+
