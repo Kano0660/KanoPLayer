@@ -30,4 +30,6 @@
 ## 界面展示
 ![XQD(2WK$3TEBJLOT)7{R~GT](https://github.com/Kano0660/KanoPLayer/assets/74139876/5985a67e-3766-4c3a-bee3-f894c3f2b921)
 
+![image](https://github.com/Kano0660/KanoPLayer/assets/74139876/21851400-c9f4-441b-b403-5f1f2bbe6d4b)
+
 
